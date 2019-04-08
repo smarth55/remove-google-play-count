@@ -1,0 +1,3 @@
+.song-table [data-col="play-count"] {
+	display: none;
+}

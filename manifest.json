@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+
+	"name": "Play Music - Hide Playcount",
+	"description": "Hides the playcount in the album view in Google Play Music",
+	"version": "1.0",
+
+	"content_scripts": [
+		{
+			"matches": ["https://play.google.com/*"],
+			"css": ["styles.css"]
+		}
+	]
+}
